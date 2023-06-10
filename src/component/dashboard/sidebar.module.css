@@ -1,0 +1,13 @@
+.sidebarDiv{
+    background: #000000;
+    border-radius: 30px;
+    height: 97vh;
+    width: 20vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarDiv h1{
+ color: #fff;
+}
