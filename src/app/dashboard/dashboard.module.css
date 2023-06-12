@@ -1,5 +1,8 @@
 .DashboardDiv{
     padding: 2%;
+    background-color: #DDDDDD;
+    width: 100%;
+
 }
 
 .Dashboardinside{
@@ -11,4 +14,12 @@
     justify-content: space-between;
     gap: 25px;
     flex-wrap: wrap;
+   gap: 50px;
+}
+
+.btmsecDiv{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
 }
