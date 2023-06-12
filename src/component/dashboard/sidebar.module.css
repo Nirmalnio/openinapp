@@ -1,11 +1,14 @@
 .sidebarDiv{
+    position: fixed;
     background: #000000;
     border-radius: 30px;
-    height: 97vh;
+    height: 96vh;
     width: 20vw;
     padding: 50px;
     display: flex;
     flex-direction: column;
+    top: 20px;
+    z-index: 100;
 }
 
 .sidebarDiv h1{

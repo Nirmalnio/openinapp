@@ -12,6 +12,7 @@ function LoginForm() {
       console.log('Password:', password);
       setEmail('');
       setPassword('');
+      alert("Use Google Login")
     };
 
 

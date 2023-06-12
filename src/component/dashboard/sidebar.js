@@ -11,9 +11,9 @@ function Sidebar() {
         <ul className={style.Dashboardicon}>
           <li>{dashboardicon} &nbsp; Dashboard</li>
           <li> {transactionicon} &nbsp; Transaction</li>
-          <li>{schedulesicon}&nbsp; Schedules</li>
-          <li>{usericon}&nbsp; Users</li>
-          <li>{settingsicon}&nbsp; Settings</li>
+          <li>{schedulesicon} &nbsp; Schedules</li>
+          <li>{usericon} &nbsp; Users</li>
+          <li>{settingsicon} &nbsp; Settings</li> 
         </ul>
        
        <ul className={style.Sidebarbtm}>

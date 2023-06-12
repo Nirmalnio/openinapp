@@ -43,10 +43,9 @@ function Dashboard() {
 
   return (
     <div className={style.DashboardDiv}>
-           <div className={style.Dashboardinside}>
            <Sidebar/>
-            <div>
-              
+            <div className={style.rigthSecDiv}>
+             <Dashboardheader/>  
               <div className={style.cardssecDiv}>
                       {cardarr?.map((item,id)=>{
                         return(
@@ -54,16 +53,13 @@ function Dashboard() {
                           )
                       })}
               </div>
-             <Dashboardheader/>  
              <Chart/>
              <div className={style.btmsecDiv}> 
                         <Circlechart/>
                         <Schedulecard/>
              </div>
-          </div>
-                       
+          </div>        
            </div>
-    </div>
   )
 }
 
