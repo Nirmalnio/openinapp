@@ -1,7 +1,11 @@
 .DashboardDiv{
     padding: 2%;
+    background-color: #DDDDDD;
+    width: 100%;
+
 }
 
 .Dashboardinside{
    display: flex;
+   gap: 50px;
 }
