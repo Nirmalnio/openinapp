@@ -9,3 +9,10 @@
    display: flex;
    gap: 50px;
 }
+
+.btmsecDiv{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+}
